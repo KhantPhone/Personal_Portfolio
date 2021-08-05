@@ -15,16 +15,27 @@ $(document).ready(function () {
 })
 function toggle_onclick($win,$header,width){
 		if ($win.width() < 768) {
+		
 			//$header.css({left:"-200px"});
 			$header.css({left: '-'+width+'px'});
 		}
 		else{
+		
 			$header.css({left:"0px"})
 		}
 }
 
 
 var typed = new Typed('#typed',{
+	strings:[
+		'Web Developer.',
+		'Freelancer.'
+	],
+	typeSpeed:100,
+	backSpeed:100,
+	loop:true
+})
+var typed = new Typed('#typed1',{
 	strings:[
 		'Web Developer.',
 		'Freelancer.'

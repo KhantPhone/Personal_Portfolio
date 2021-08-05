@@ -63,7 +63,7 @@ body{
 }
 .toggle-left{
 	left: 0 !important;
-	width: 1000px !important;
+	width: 100% !important;
 }
 /*banner section*/
 #site-main .col-md-9{
